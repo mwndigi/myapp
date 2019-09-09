@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My application</title>
+</head>
+<body>
+<h1>My application</h1>
+<h2>Create user</h2>
+<form id="register-form">
+    <input id="username" type="text" placeholder="Username" value=""/>
+    <input id="password" type="password" placeholder="Password" value=""/>
+    <input id="registration_btn" type="submit" value="Create user" onClick="storeLogin()"/>
+</form>
+<h2>Show user</h2>
+<input id="list_users_btn" type="submit" value="Show user" onClick="showUser()"/>
+<h2>Login</h2>
+<form id="login-form">
+    <input id="enteredName" type="text" placeholder="Enter Username" value=""/>
+    <input id="enteredPass" type="password" placeholder="Enter Password" value=""/>
+    <input id="login_btn" type="submit" value="Login" onClick="checkLogin()"/>
+</form>
+<h2>Clear user</h2>
+<input id="clear_users_btn" type="submit" value="Clear user" onClick="clearUser()"/>
+
+<script src="app.js"> </script>
+
+</body>
+</html>
