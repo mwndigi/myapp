@@ -2,15 +2,26 @@
 <html>
 <head>
     <title>My application</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
 </head>
 <body>
 <h1>My application</h1>
-<h2>Create user</h2>
+<ul>
+    <li>Registration form</li>
+    <li>Login form</li>
+</ul>
+
+<h2>Register</h2>
+
 <form id="register-form">
     <input id="username" type="text" placeholder="Username" value=""/>
     <input id="password" type="password" placeholder="Password" value=""/>
-    <input id="registration_btn" type="submit" value="Create user" onClick="storeLogin()"/>
+    <input id="registration_btn" type="submit" value="Register" onClick="storeLogin()"/>
 </form>
+
+
+
+
 <h2>Show user</h2>
 <input id="list_users_btn" type="submit" value="Show user" onClick="showUser()"/>
 <h2>Login</h2>
