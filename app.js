@@ -35,6 +35,7 @@ function checkLogin() {
     }
 }
 
+// Function to clear user from localStorage
 function clearUser() {
     localStorage.clear();
     alert('User has been cleared from localStorage.');
